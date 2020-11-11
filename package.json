@@ -1,0 +1,31 @@
+{
+  "name": "salesmanmobapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --inspect index.js"
+  },
+  
+  "dependencies": {
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "index.js": "^0.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mssql": "^6.2.3",
+    "nodemon": "^2.0.6"
+  },
+  
+  "devDependencies": {},
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KennedyAlef7"
+  },
+  "keywords": [
+    "Senha123@1"
+  ],
+  "author": "Kennedy Alef",
+  "license": "ISC"
+}
