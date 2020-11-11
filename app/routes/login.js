@@ -1,5 +1,7 @@
 const { response } = require('../../config/server');
 var auth = require('./../../auth/authentication');
+const {userLogger, logger} = require('./../../logg/logger');
+    
 module.exports = function(app) {
 
 const bodyParser = require('body-parser');
@@ -8,9 +10,11 @@ const { log } = require("console");
 app.use(bodyParser.json());
     app.post('/login', (req, res, next) => {
 
-        //esse teste abaixo deve ser feito no seu banco de dados
     auth.AuthUser(req).then(result=>{
+        logger.log('info','Log datadog')
+        logger.info('information using log');
         
+
         if(result)
         {
         return res.json({ auth: true, token: result });
