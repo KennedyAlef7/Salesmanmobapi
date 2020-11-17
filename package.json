@@ -15,6 +15,7 @@
     "hot-shots": "^8.2.0",
     "index.js": "^0.0.3",
     "jsonwebtoken": "^8.5.1",
+    "logform": "^2.2.0",
     "mssql": "^6.2.3",
     "nodemon": "^2.0.6",
     "winston": "^3.3.3"
